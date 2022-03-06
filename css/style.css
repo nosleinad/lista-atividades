@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+   background: linear-gradient(68.15deg, #0958cf 16.62%, #04265a 85.61%);
+  
+  
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    
+}
+
+.cabecalho-imagem {
+    height: 100px;
+}
+
+.cabecalho-foto {
+    height: 100px;
+    float: right;
+    border-radius: 20px;
+}
+
+.conteudo {
+    border-top: 0.4px solid #fff2E7;
+    margin-bottom: 48px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 44px;
+    color: #fff2E7;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 140px;
+    
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    font-weight: 300;
+    font-size: 30px;
+    color: #ECD6C4 ;
+
+}
+
+.projetos {
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.conteudo-principal-escrito-botao {
+    background: #2FA851;
+    width: 100px;
+    height: 60px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px; 
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff; 
+    
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(4, 46, 59, 0.822) ;
+    color: #fff2E7;
+    cursor: pointer;
+    
+}
+
+.rodape-paragrafo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ECD6C4;
+
+}
+
+.rodape-imagem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
